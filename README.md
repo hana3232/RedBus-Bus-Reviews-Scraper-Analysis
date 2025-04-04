@@ -57,3 +57,41 @@ A complete data pipeline that scrapes **RedBus customer reviews**, cleans the da
 
 ## 🏗️ Project Structure
 
+
+---
+
+## 🧪 How to Run the Project
+
+```bash
+# Step 1: Clone the repo
+git clone https://github.com/hana3232/redbus-review-streamlit.git
+cd redbus-review-streamlit
+
+# Step 2: Install requirements
+pip install -r requirements.txt
+
+# Step 3: Run scraper to fetch data
+python scraper/scrape_reviews.py
+
+# Step 4: Launch the Streamlit app
+streamlit run app/main.py
+
+📌 References
+Streamlit Docs
+
+Selenium WebDriver Docs
+
+SQL Connection Guide
+
+Streamlit Tamil Special Session (Aug 11)
+
+🧑‍💻 Author
+Created by: Hana
+
+Verified and Approved by: Aravinth Meganathan
+
+📅 Project Timeline
+Duration: 1 Week
+Status: ✅ Completed and Functional
+Future Enhancements: Recommendation system, AI-based review classification, Deployment on Streamlit Cloud or Hugging Face Spaces
+
